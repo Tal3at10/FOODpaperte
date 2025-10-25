@@ -1,0 +1,218 @@
+.about-us {
+    padding: 75px;
+    background-image: url(../../assets/images/footer-bg.jpg);
+    position: relative;
+    height: 60vh;
+    z-index: 9;
+  }
+  
+  .about-us h2 {
+    color: #1d1d1b;
+    font-size: 42px;
+    font-weight: 700;
+    text-align: center;
+    margin: 60px 0 25px;
+  }
+
+  span{
+    color: #fff
+  }
+  /* .about-us .about-img {
+    position: relative;
+    top: -65px;
+  } */
+  
+  .about-us .about-img img {
+    width: 100%;
+    max-height: 650px;
+  }
+  
+  .about-us p {
+    color: #333333;
+    font-size: 20px;
+  }
+  .about-us .more {
+    display: table;
+    margin-top: 30px;
+    line-height: 20px;
+  }
+  /* Project */
+  .projects {
+    padding: 75px;
+    position: relative;
+  }
+  
+  .projects .main-title {
+    color: #1d1d1b;
+    font-size: 52px;
+    font-weight: 900;
+    max-width: 250px;
+  }
+  
+  .projects .owl-item img {
+    border-radius: 35px;
+  }
+  
+  .title-projects {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(0, 0, 0, 0.5) 50%,
+      rgba(0, 0, 0, 1) 100%
+    );
+    color: #fff;
+    padding: 15px;
+    border-bottom-right-radius: 35px;
+    border-bottom-left-radius: 35px;
+  }
+  
+  .title-projects h3 {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0;
+    display: inline-block;
+  }
+  
+  .title-projects img {
+    width: 50px !important;
+    float: left;
+  }
+  
+  .projects .more {
+    position: relative;
+    top: -55px;
+    display: table;
+    font-weight: 700;
+  }
+  
+  .projects .more span:before {
+    
+    background: url(../images/nav-l.svg) no-repeat;
+  }
+  
+  .projects .more span:after {
+    background: url(../images/nav-r.svg) no-repeat;
+  }
+  
+  .projects .owl-nav {
+    position: absolute;
+    top: 45%;
+    right: -34%;
+  }
+  
+  .projects .owl-nav button img,
+  .sectors .owl-carousel .owl-nav button img {
+    width: 60px;
+    transition: 0.3s;
+  }
+  .projects .owl-carousel .owl-nav button.owl-next,
+  .sectors .owl-carousel .owl-nav button.owl-next {
+    margin-right: 20px;
+  }
+  @media (min-width: 2047.9px) {
+    .projects .owl-nav {
+        right: -34%;
+      }
+      .projects .owl-nav button.owl-next img,
+      .projects .owl-carousel .owl-nav button.owl-prev img {
+        width: 100px;
+      }
+      .title-projects h3 {
+        font-size: 30px;
+      }
+      .title-projects img {
+        width: 65px !important;
+      }
+      .projects .main-title {
+        font-size: 65px;
+      }
+      .projects .more img {
+        width: 195px;
+      }
+      .projects .owl-nav {
+        top: 55%;
+      }
+      .projects .more {
+        top: 0;
+      }
+
+
+  }
+  @media (min-width: 3839.9px) {
+    .projects {
+        padding: 250px 0;
+      }
+      .about-us .about-img img {
+        max-height: 900px;
+      }
+      .projects .owl-nav {
+        right: -33%;
+      }
+      .projects .owl-nav button.owl-next img,
+      .projects .owl-carousel .owl-nav button.owl-prev img {
+        width: 200px;
+      }
+      .projects .main-title {
+        font-size: 115px;
+      }
+
+      .projects .more img {
+        width: 395px;
+      }
+      .projects .owl-item img {
+        border-radius: 70px;
+      }
+      .title-projects {
+        padding: 40px;
+        border-bottom-right-radius: 70px;
+        border-bottom-left-radius: 70px;
+      }
+      .title-projects h3 {
+        font-size: 50px;
+      }
+      .title-projects img {
+        width: 110px !important;
+      }
+
+
+
+
+
+}@media (max-width: 1255px) {
+    .slider-projects .flip-box {
+      width: 100%;
+    }
+  }@media (max-width: 889.9px) {
+    .projects .main-title {
+        font-size: 35px;
+      }
+      .projects.sectors .owl-nav {
+        top: 45% !important;
+      }
+      .projects.sectors .owl-nav,
+      .sectors .owl-nav {
+        right: -54% !important;
+      }
+  }@media (max-width: 767.9px) {
+    .projects .owl-nav {
+        right: -77%;
+      }
+      .projects .owl-nav button.owl-next img,
+      .projects .owl-carousel .owl-nav button.owl-prev img {
+        width: 55px;
+      }
+      .projects .more {
+        top: -40px;
+      }
+      .more span {
+        font-size: 16px;
+      }
+      .projects .more img {
+        width: 125px;
+      }
+  }
